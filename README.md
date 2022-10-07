@@ -7,18 +7,18 @@
 
 ## Features
 
-- ✅ Integration with **Tailwind CSS** ([@astrojs/tailwind](https://docs.astro.build/en/guides/integrations-guide/tailwind/)).
-- ✅ Supports **Dark mode**.
-- ✅ **Fast and SEO friendly blog** with automatic **RSS feed** ([@astrojs/rss](https://docs.astro.build/en/guides/rss/)).
-- ✅ **Image optimization** ([@astrojs/images](https://docs.astro.build/en/guides/integrations-guide/image/)).
-- ✅ Generation of **project sitemap** based on your routes ([@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)).
-- ✅ **Open Graph tags** for social media sharing
-- ✅ **Fonts optimization** at build time ([subfont](https://www.npmjs.com/package/subfont)).
-- ✅ **Production-ready** scores in [Lighthouse](https://web.dev/measure/) and [PageSpeed Insights](https://pagespeed.web.dev/) reports
+- Integration with **Tailwind CSS** ([@astrojs/tailwind](https://docs.astro.build/en/guides/integrations-guide/tailwind/)).
+- Supports **Dark mode**.
+- **Fast and SEO friendly blog** with automatic **RSS feed** ([@astrojs/rss](https://docs.astro.build/en/guides/rss/)).
+- **Image optimization** ([@astrojs/images](https://docs.astro.build/en/guides/integrations-guide/image/)).
+- Generation of **project sitemap** based on your routes ([@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)).
+- **Open Graph tags** for social media sharing
+- **Fonts optimization** at build time ([subfont](https://www.npmjs.com/package/subfont)).
+- **Production-ready** scores in [Lighthouse](https://web.dev/measure/) and [PageSpeed Insights](https://pagespeed.web.dev/) reports
 
 <br>
 
-<img src="./screenshot.png" alt="AstroWind Theme Screenshot">
+<!-- <img src="./screenshot.png" alt="AstroWind Theme Screenshot"> -->
 
 <br>
 
@@ -40,6 +40,8 @@
 </details>
 
 <br>
+
+Icon resource for the site: [Iconify icon sets](https://icon-sets.iconify.design/) 
 
 ## Demo
 
