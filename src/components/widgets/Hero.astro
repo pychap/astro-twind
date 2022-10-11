@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon';
 import Picture from '~/components/core/Picture.astro';
+import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permalinks';
 ---
 
 <section>
@@ -9,14 +10,14 @@ import Picture from '~/components/core/Picture.astro';
 			<div class="text-center pb-10 md:pb-16">
 				<h1 class="text-5xl md:text-[3.50rem] font-serif font-bold leading-tighter tracking-tight mb-4 font-heading">
 					Front-end development: a combination of  <br>
-					<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500">Code</span>&nbsp;+&nbsp;<span
+					<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500">Code</span>&nbsp;&amp;&nbsp;<span
 						class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500 sm:whitespace-nowrap"
 						>Creativity</span
 					>
 				</h1>
 				<div class="max-w-3xl mx-auto">
 					<p class="text-xl text-gray-600 mb-8 dark:text-slate-400 font-light">
-						I've always walked a thin line of working between artistic / creative and technical work. It was an encouraging day when I discovered that engineering work can be creative. Doing my best to record the journey.
+						I've always walked a thin line of working between artistic / creative and technical work. It was an encouraging day when I discovered that engineering work can be creative. Doing my best to document the journey.
 						<!-- <span class="inline sm:hidden">...</span><span
 							class="hidden sm:inline"
 							>Dark Mode, Great Page Speed, image optimization, sitemap generation and more.</span> -->
@@ -25,9 +26,7 @@ import Picture from '~/components/core/Picture.astro';
 						<div class="flex w-full sm:w-auto">
 							<a
 								class="btn text-white border border-amber-500 bg-amber-500 hover:bg-amber-600 hover:border-amber-600 hover:text-gray-100 sm:mb-0 w-full"
-								href="https://github.com/onwidget/astrowind"
-								target="_blank"
-								rel="noopener"
+								href={getPermalink('about', 'post')}
 							>
 								<Icon name="ph:user-circle-light" class="w-6 h-6 mr-1 -ml-1.5" /> About
 							</a>
@@ -36,15 +35,17 @@ import Picture from '~/components/core/Picture.astro';
 				</div>
 			</div>
 			<div>
-				<div class="relative mb-8 m-auto max-w-3xl">
+				<div class="relative mb-8 m-auto max-w-5xl h-auto">
 					<Picture
-						src={import('~/assets/images/hero.jpg')}
+						src={import('~/assets/images/screen-with-code.jpg')}
 						class="mx-auto rounded-md shadow-lg bg-gray-400 dark:bg-slate-700 w-full"
-						widths={[400, 768]}
-						sizes=" (max-width: 767px) 400px, 768px"
+						widths={[400, 768, 1000]}
+						sizes=" (max-width: 1000px) 400px, 768px, 1000px"
 						alt="Hero Image"
 						aspectRatio="16:9"
 					/>
+					<p class=" text-xs text-gray-500 mt-2">Photo by <a href="https://unsplash.com/@afgprogrammer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Mohammad Rahmani</a> on <a href="https://unsplash.com/s/photos/developer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+          </p>
 				</div>
 			</div>
 		</div>
