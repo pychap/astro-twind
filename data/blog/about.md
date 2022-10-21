@@ -6,9 +6,10 @@ image: "~/assets/images/tools.jpg"
 tags: [front-end, about]
 ---
 
-# A little bit about me, my skills, the path my life has taken.
+# A bit about me.
 
-Hard to believe that some time back I started on my career path as a cook 👨‍🍳. Cooking in a restaurant after high school. Then joining the Coast Guard with robust training. Liking cooking but wanting to go further in my schooling when I got out ol into Architecture School at Arizona State. I didn't end up with Architecture, graduating with a degree in Industrial Technology, Graphic Communications.  
+### The cook
+Hard to believe that some time back I started on my career path as a cook 👨‍🍳. It started as a line cook in a Prime Rib restaurant after high school. After High School I joined the Coast Guard and got pretty robust culinary training, made top of the class! After the Coast Guard I had to make a decision: I liked cooking but I wanted to go further in my schooling. So when I got out and having some previous architecture exposure, I enrolled into Architecture School at Arizona State. I didn't end up with Architecture for various reason, instead graduating with a degree in Industrial Technology, Graphic Communications. 
 
 After being in the workforce with my degree for about 6 years, I enrolled in a Multimedia Design program at Platt College. I think that this was the pivotal moment in my life as I found I could digitally make and design things like I dreamed of in Architecture school. And, if I wanted to change what I made, I could do it instantly.
 
